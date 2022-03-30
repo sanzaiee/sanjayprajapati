@@ -150,12 +150,15 @@
         return false;
     });
 
-    // Menu list isotope and filter
+    // Menu list isotope and 
+    
+    
+    
     $(window).on('load', function() {
         var menuIsotope = $('.menu-container').isotope({
             itemSelector: '.menu-item',
             layoutMode: 'fitRows',
-            filter: '.filter-softbenz'
+            filter: '.filter-softmahaal'
         });
 
         $('#menu-flters li').on('click', function() {
