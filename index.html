@@ -1,412 +1,885 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Sanjay Prajapati</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/css/venobox.css" rel="stylesheet">
-    <link href="assets/css/icofont.min.css" rel="stylesheet">
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link rel="canonical" href="https://prajapatisanjay.com.np/" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
 
-<body>
+    <!-- Primary Meta Tags -->
+    <title>
+      Sanjay Prajapati | Backend Developer - Laravel & MERN Stack Expert
+    </title>
+    <meta
+      content="Sanjay Prajapati - Backend Developer with 5+ years of experience in Laravel, Livewire, and MERN stack. Expert in building scalable web applications, REST APIs, and backend architecture based in Nepal."
+      name="description"
+    />
+    <meta
+      content="Sanjay Prajapati, Backend Developer, Laravel Developer, MERN Stack, Web Developer, PHP, Nepal, React.js, Node.js, Livewire, REST API"
+      name="keywords"
+    />
+    <meta name="author" content="Sanjay Prajapati" />
+    <meta name="theme-color" content="#cc1616" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://prajapatisanjay.com.np/" />
+    <meta property="og:title" content="Sanjay Prajapati | Backend Developer" />
+    <meta
+      property="og:description"
+      content="Backend Developer with 5+ years of experience in Laravel, Livewire, and MERN stack. Building scalable, secure, and high-performance web applications."
+    />
+    <meta
+      property="og:image"
+      content="https://prajapatisanjay.com.np/assets/img/about.jpg"
+    />
+    <meta
+      property="og:site_name"
+      content="Sanjay Prajapati - Backend Developer"
+    />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://prajapatisanjay.com.np/" />
+    <meta
+      property="twitter:title"
+      content="Sanjay Prajapati | Backend Developer"
+    />
+    <meta
+      property="twitter:description"
+      content="Backend Developer with 5+ years of experience in Laravel, Livewire, and MERN stack."
+    />
+    <meta
+      property="twitter:image"
+      content="https://prajapatisanjay.com.np/assets/img/about.jpg"
+    />
+    <meta property="twitter:creator" content="@sanjayprajapati" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sanjay Prajapati",
+        "url": "https://prajapatisanjay.com.np",
+        "image": "https://prajapatisanjay.com.np/assets/img/1.png",
+        "sameAs": [
+          "https://www.linkedin.com/in/sanjay-prajapati-780949140/",
+          "https://www.facebook.com/sanjay.prajapati.7587",
+          "https://www.instagram.com/sanzaie/"
+        ],
+        "jobTitle": "Backend Developer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Ekbana Solutions Pvt. Ltd."
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Madhyapur Thimi",
+          "addressRegion": "Bhaktapur",
+          "addressCountry": "Nepal"
+        },
+        "email": "snjprajapati3@gmail.com",
+        "telephone": "+977-9860073351",
+        "description": "Backend Developer with 5+ years of experience in Laravel, Livewire, and MERN stack. Expert in building scalable web applications, REST APIs, and backend architecture.",
+        "knowsAbout": [
+          "Laravel",
+          "PHP",
+          "Livewire",
+          "MERN Stack",
+          "React.js",
+          "Node.js",
+          "MySQL",
+          "MongoDB",
+          "RESTful APIs",
+          "Web Development"
+        ],
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Tribhuvan University"
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://prajapatisanjay.com.np/",
+        "name": "Sanjay Prajapati - Backend Developer",
+        "description": "Portfolio of Sanjay Prajapati, a Backend Developer specializing in Laravel, Livewire, and MERN stack",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://prajapatisanjay.com.np/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Sanjay Prajapati"
+        }
+      }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/1.png" />
+    <link rel="apple-touch-icon" href="assets/img/1.png" />
+    <link rel="manifest" href="assets/img/site.webmanifest" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="assets/css/venobox.css" rel="stylesheet" />
+    <link href="assets/css/icofont.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
     <div id="topbar" class="d-flex align-items-center fixed-top">
-        <div class="container d-flex">
-            <div class="contact-info mr-auto">
-                <i class="fa fa-phone"></i> <a href="tel:+977-9860073351" class="text-white">+977-9860073351</a>
-                <i class="fa fa-envelope"></i> <a href="mail:snjprajapati3@gmail.com" class="text-white">snjprajapati3@gmail.com</a>
-            </div>
-            <div class="social">
-                <ul>
-                    <li><a href="https://www.facebook.com/sanjay.prajapati.7587" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/sanzaie/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/sanjay-prajapati-780949140/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-            </div>
+      <div class="container d-flex">
+        <div class="contact-info mr-auto">
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:+977-9860073351" class="text-white">+977-9860073351</a>
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:snjprajapati3@gmail.com" class="text-white"
+            >snjprajapati3@gmail.com</a
+          >
         </div>
+        <div class="social">
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/sanjay.prajapati.7587"
+                target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/sanzaie/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/sanjay-prajapati-780949140/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-
     <header id="header" class="fixed-top">
-        <div class="container d-flex align-items-center">
-            <a href="index.html" class="logo mr-auto"><span class="text-white">Sanjay Prajapati</span></a>
-            <nav class="nav-menu d-none d-lg-block">
-                <ul>
-                    <li class="active"><a href="https://prajapatisanjay.com.np">Home</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#menu">Experience</a></li>
-                    <li><a href="#certifcates">Certifications</a></li>
-                    <li><a href="#contact">Contact</a></li>
-
-                </ul>
-            </nav>
-        </div>
+      <div class="container d-flex align-items-center">
+        <a href="index.html" class="logo mr-auto"
+          ><span class="text-white">Sanjay Prajapati</span></a
+        >
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li class="active">
+              <a href="https://prajapatisanjay.com.np">Home</a>
+            </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#menu">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certificates">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    
+
     <section id="hero" class="d-flex align-items-center">
-        <div class="owl-carousel banner-sl owl-theme">
-            <div class="item">
-                <img src="assets/img/office.jpg" alt="images not found">
-                <div class="cover">
-                    <div class="container position-relative text-center text-lg-left" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="row">
-                            <div class="col-lg-8">
-                                <h1>Namaste,<span> I'm Sanjay Prajapati</span></h1>
-                                <h2>A keen learner & competent laravel developer — with 3 years of experience in layout, design, & website development.</h2>
-                                <div class="btns1">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="owl-carousel banner-sl owl-theme">
+        <div class="item">
+          <img
+            src="assets/img/office.jpg"
+            alt="Backend Developer Workspace - Sanjay Prajapati's professional development environment"
+          />
+          <div class="cover">
+            <div
+              class="container position-relative text-center text-lg-left"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="row">
+                <div class="col-lg-8" data-aos="fade-right">
+                  <h1 data-aos="fade-down">
+                    Namaste,<span> I'm Sanjay Prajapati</span>
+                  </h1>
+                  <h2 data-aos="fade-up" data-aos-delay="100">
+                    Backend Developer with 5+ years of experience in Laravel,
+                    Livewire, and MERN stack. Building scalable, secure, and
+                    high-performance web applications.
+                  </h2>
+                  <div class="btns1" data-aos="fade-up" data-aos-delay="200">
+                    <a href="#about" class="btn-get-started scrollto"
+                      >About Me</a
+                    >
+                    <a href="#contact" class="btn-get-quote scrollto"
+                      >Contact Me</a
+                    >
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
-
     <main id="main">
-        <section class="skills" id="skills">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Skills</h2>
-                    <p>Please Check My <span>Skills</span></p>
-                </div>
-
-                <div class="skills-sec">
-                    <div class="btns">
-                        <span>LARAVEL</span>
-                    </div>
-                    <div class="btns">
-                        <span>HTML</span>
-                    </div>
-                    <div class="btns">
-                        <span>CSS/SASS</span>
-                    </div>
-                    <div class="btns">
-                        <span>AJAX</span>
-                    </div>
-                    <div class="btns">
-                        <span>JQUERY</span>
-                    </div>
-                    <div class="btns">
-                        <span>BOOTSTRAP</span>
-                    </div>
-                    <div class="btns">
-                        <span>JAVASCRIPT</span>
-                    </div>
-                    <div class="btns">
-                        <span>MYSQL</span>
-                    </div>
-                    <div class="btns">
-                        <span>LIVEWIRE</span>
-                    </div>
-                    <div class="btns">
-                        <span>JAVA</span>
-                    </div>
-                    <div class="btns">
-                        <span>VUE.JS</span>
-                    </div>
-                    <div class="btns">
-                        <span>PHP</span>
-                    </div>
-                    <div class="btns">
-                        <span>GIT</span>
-                    </div>
-                    <div class="btns">
-                        <span>SPRING MVC</span>
-                    </div>
-                    <div class="btns">
-                        <span>OOP & MVC</span>
-                    </div>
-                    <div class="btns">
-                        <span>PHOTOSHOP</span>
-                    </div>
-                    <div class="btns">
-                        <span>JSON</span>
-                    </div>
-                    <div class="btns">
-                        <span>RESTFUL API & SOAP</span>
-                    </div>
-                    <div class="btns">
-                        <span>CPANEL-WEB HOSTING CONTROL PANEL SOFTWARE</span>
-                    </div>
-                </div>
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>About Me</h2>
+            <p>Get To Know <span>About Me</span></p>
+          </div>
+          <div class="about-content">
+            <div class="about-intro" data-aos="fade-up">
+              <div class="intro-badge">
+                <h3>Backend Developer & Laravel Enthusiast</h3>
+              </div>
+              <p class="fst-italic">
+                I'm a passionate backend developer with over 5 years of hands-on
+                experience building scalable, secure, and high-performance web
+                applications. My expertise spans across Laravel, Livewire, and
+                MERN stack technologies.
+              </p>
+              <p>
+                Throughout my career, I've worked on diverse projects including
+                banking systems, SaaS platforms, government websites, e-commerce
+                solutions, and learning management systems. I'm currently
+                pursuing a Master's in Computer Science while working as a
+                Backend Developer at Ekbana Solutions.
+              </p>
+              <p>
+                I specialize in RESTful APIs, database design, and backend
+                architecture. My approach focuses on writing clean, maintainable
+                code and implementing best practices in software development.
+              </p>
             </div>
-        </section>
-
-        <section id="menu" class="menu menu-section">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title">
-                    <h2>Experience</h2>
-                    <p>Please Check My <span>Experience</span></p>
+            <div class="about-skills" data-aos="fade-up" data-aos-delay="100">
+              <div class="skills-grid">
+                <div class="skill-item-box">
+                  <div class="skill-item-header">
+                    <i class="fa-solid fa-code"></i>
+                    <h4>Languages</h4>
+                  </div>
+                  <ul class="skill-list">
+                    <li>PHP</li>
+                    <li>JavaScript</li>
+                    <li>Node.js</li>
+                  </ul>
                 </div>
-                <div class="row" data-aos="fade-up" data-aos-delay="100">
-                    <div class="col-lg-12 d-flex justify-content-center">
-                        <ul id="menu-flters">
-                            <li data-filter=".filter-peaceNepal">Peace Nepal Dot Com</li>
-                            <li data-filter=".filter-youngMinds">YoungMinds</li>
-                            <li data-filter=".filter-softbenz">Softbenz</li>
-                            <li data-filter=".filter-digital">Digital Terai</li>
-                        </ul>
-                    </div>
+                <div class="skill-item-box">
+                  <div class="skill-item-header">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h4>Frameworks</h4>
+                  </div>
+                  <ul class="skill-list">
+                    <li>Laravel</li>
+                    <li>Livewire</li>
+                    <li>Express.js</li>
+                    <li>React.js</li>
+                    <li>Vue.js</li>
+                  </ul>
                 </div>
-                <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
-                    
-                    <div class="col-md-12 menu-item filter-peaceNepal">
-                        <div class="content1">
-                            <div class="content1-head">
-                                <h1>Jul 2023 - Ongoing</h1>
-                                <h2>Kupondol, Lalitpur</h2>
-                            </div>
-                            <div class="job">
-                                <div class="job-list">
-                                    <h3>Description</h3>
-                                    <p>
-                                        As a Laravel Developer at this company, my duties include creating and maintaining client websites 
-                                        and applications based on design handoffs from lead designers and using a test-driven development 
-                                        methodology in accordance with the needs of the customer. I'm getting active in many governmental 
-                                        initiatives.
-                                    </p>                                 
-                                </div>
-                                <div class="image1">
-                                    <img src="https://peacenepal.com.np/images/logo.png" class="rounded-circle" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-12 menu-item filter-youngMinds">
-                        <div class="content1">
-                            <div class="content1-head">
-                                <h1>JAN 2022 - Jul 2023</h1>
-                                <h2>Shantinagar, Kathmandu</h2>
-                            </div>
-                            <div class="job">
-                                <div class="job-list">
-                                    <h3>Description</h3>
-                                    <p>
-                                        As a Mid-Level Developer at this company, my duties include creating and maintaining client websites 
-                                        and applications based on design handoffs from lead designers and using a test-driven development 
-                                        methodology in accordance with the needs of the customer. I'm getting active in many governmental 
-                                        initiatives.
-                                    </p>                                 
-                                </div>
-                                <div class="image1">
-                                    <img src="assets/img/ym.png" class="rounded-circle" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-12 menu-item filter-softbenz">
-                        <div class="content1">
-                            <div class="content1-head">
-                                <h1>JUN 2020 – JUN 2022</h1>
-                                <h2>Sankhamul, kathmandu</h2>
-                            </div>
-                            <div class="job">
-                                <div class="job-list">
-                                    <h3>Description</h3>
-                                    <p>
-                                        Here, I worked as a Junior Laravel developer and later established myself as a Mid-Level Laravel
-                                        developer and managed different projects and handle clients response accordingly. I was responsible for 
-                                        developing various projects such as travel websites, educational sites, news websites, portfolio, 
-                                        ecommerce etc. 
-                                        Notables Projects: GharsansarNepal, Mount Glory Adventures, NepalyanBooks, Mjcebazzar, 
-                                        Unitrade,Softbenz , npjhomeservice , Eduzeit etc
-                                        
-                                    </p>
-                                    <h3>Websites Involved</h3>
-                                        <div class="skills-sec">
-                                            <div class="btns">
-                                                <a href="https://www.gharsansarnepal.com/" target="_blank">
-                                                    <span>GharsansarNepal</span>
-                                                </a>
-                                            </div>
-
-                                             <div class="btns">
-                                                <a href="https://mountgloryadventures.com/" target="_blank">
-                                                    <span>Mount Glory Adventures</span>
-                                                </a>
-                                            </div>
-
-                                              <div class="btns">
-                                               <a href="http://nepalyanbooks.com/" target="_blank">
-                                                    <span>NepalyanBooks</span>
-                                                </a>
-                                            </div>
-
-                                             <div class="btns">
-                                                 <a href="https://mjcebazaar.com/" target="_blank">
-                                                    <span>MjceBazzar</span>
-                                                </a>
-                                            </div>
-                                             <div class="btns">
-                                                <a href="https://www.unitradenepal.com/" target="_blank">
-                                                    <span>Unitrade</span>
-                                                </a>
-                                            </div>
-
-                                            <div class="btns">
-                                                 <a href="https://www.softbenz.com/" target="_blank">
-                                                    <span>Softbenz</span>
-                                                </a>
-                                            </div>
-                                          
-
-                                             <div class="btns">
-                                                 <a href="https://a2zmarmat.com/" target="_blank">
-                                                    <span>A2ZMarmat</span>
-                                                </a>
-                                            </div>
-
-                                          
-                                        </div>
-
-                                </div>
-                                <div class="image1">
-                                    <img src="https://softbenz.com/uploads/settings/site-logo-1627373849.svg" class="rounded-circle" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 menu-item filter-digital">
-                        <div class="content1">
-                            <div class="content1-head">
-                                <h1>APR 2019 – MAR 2020</h1>
-                                <h2>Kumaripati, Lalitpur</h2>
-                            </div>
-
-                            <div class="job">
-                                <div class="job-list">
-                                    <h3>Description</h3>
-                                    <p>
-                                            Here, I started as an intern and later established myself as a Junior Software Developer. Collaborating 
-                                            with senior developers I improved and build my technical skills and software development life cycle. 
-                                            Notables Projects: Gyankup E-library, Nepali Lami, Yopretty(Beauty salon website), Online Exam 
-                                            preparation for MBBS students etc
-                                    </p>
-
-                                     <h3>Websites Involved</h3>
-                                        <div class="skills-sec">
-                                             <div class="btns">
-                                               <a href="https://gyankup.edu.np/" target="_blank">
-                                                    <span>Gyankup E-library</span>
-                                                </a>
-                                            </div>
-
-                                             <div class="btns">
-                                                    <span>Yopretty [Beauty Saloon Website (inprogress)]</span>
-                                            </div>
-
-                                             <div class="btns">
-                                                <a href="https://nepalilami.com/" target="_blank">
-                                                    <span>Nepali Lami</span>
-                                                </a>
-                                            </div>
-
-                                             <div class="btns">
-                                                    <span>Online Exam [Online Exam Preparation For MBBS Students]</span>
-                                            </div>
-                                          
-                                        </div>
-                                </div>
-                                <div class="image1">
-                                    <img src="assets/img/3.png" class="rounded-circle" alt="">
-
-                                </div>
-                            </div>
-
-
-
-                        </div>
-                    </div>
-                    <div class="col-lg-6 menu-item filter-starters">
-
-                    </div>
+                <div class="skill-item-box">
+                  <div class="skill-item-header">
+                    <i class="fa-solid fa-database"></i>
+                    <h4>Databases</h4>
+                  </div>
+                  <ul class="skill-list">
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>PostgreSQL</li>
+                  </ul>
                 </div>
+                <div class="skill-item-box">
+                  <div class="skill-item-header">
+                    <i class="fa-solid fa-sitemap"></i>
+                    <h4>Architecture</h4>
+                  </div>
+                  <ul class="skill-list">
+                    <li>MVC</li>
+                    <li>RESTful APIs</li>
+                    <li>Microservices</li>
+                  </ul>
+                </div>
+                <div class="skill-item-box">
+                  <div class="skill-item-header">
+                    <i class="fa-solid fa-tools"></i>
+                    <h4>Tools</h4>
+                  </div>
+                  <ul class="skill-list">
+                    <li>Git</li>
+                    <li>cPanel</li>
+                    <li>Web Hosting</li>
+                  </ul>
+                </div>
+                <div class="skill-item-box">
+                  <div class="skill-item-header">
+                    <i class="fa-solid fa-building"></i>
+                    <h4>Domains</h4>
+                  </div>
+                  <ul class="skill-list">
+                    <li>Banking</li>
+                    <li>SaaS</li>
+                    <li>Government</li>
+                    <li>E-commerce</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="about-cta text-center pt-4">
+                <a href="#contact" class="btn-get-started scrollto">
+                  Let's Connect
+                  <i class="fa-solid fa-arrow-right ml-2"></i>
+                </a>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
+      <section class="skills" id="skills">
+        <div class="container">
+          <div class="section-title">
+            <h2>Skills</h2>
+            <p>My Core <span>Technical Skills</span></p>
+          </div>
 
-
-         <section class="skills" id="certifcates">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Certifications</h2>
-                    <p>Please Check My <span>Certificates</span></p>
+          <div class="row skills-container">
+            <!-- Backend Development -->
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+              <div class="skill-card">
+                <div class="skill-card-icon backend">
+                  <i class="fa-solid fa-server"></i>
                 </div>
-                <div class="skills-sec">
-                    <div class="btns">
-                        <span>Java Programming Course , IT Training Nepal , Putalisadak-31 , Kathmandu , Nepal [2017]</span>
-                    </div>
-                    <div class="btns">
-                        <span>PHP Course , Aptech Computer Education , Kumaripati , Lalitpur [2016]</span>
-                    </div>
-                  
-                   <div class="btns">
-                        <span>Mobile Training , Tamlakar Complex [2011]</span>
-                    </div>
-
+                <h3>Backend Development</h3>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">Laravel</span>
+                    <span class="skill-percent">95%</span>
+                  </div>
+                  <div class="progress-bar-wrap">
+                    <div
+                      class="progress-bar backend-bar"
+                      style="width: 95%"
+                    ></div>
+                  </div>
                 </div>
-
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">PHP</span>
+                    <span class="skill-percent">90%</span>
+                  </div>
+                  <div class="progress-bar-wrap">
+                    <div
+                      class="progress-bar backend-bar"
+                      style="width: 90%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">Livewire</span>
+                    <span class="skill-percent">85%</span>
+                  </div>
+                  <div class="progress-bar-wrap">
+                    <div
+                      class="progress-bar backend-bar"
+                      style="width: 85%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">Node.js</span>
+                    <span class="skill-percent">80%</span>
+                  </div>
+                  <div class="progress-bar-wrap">
+                    <div
+                      class="progress-bar backend-bar"
+                      style="width: 80%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
             </div>
 
-        </section>
-
-
-
-        <section id="contact" class="contact">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title">
-                    <h2>Contact</h2>
-                    <p>Contact <span>Me</span></p>
+            <!-- Frontend Development -->
+            <div
+              class="col-lg-4 col-md-6 mb-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="skill-card">
+                <div class="skill-card-icon frontend">
+                  <i class="fa-solid fa-code"></i>
                 </div>
-            </div>
-          
-            <div class="container" data-aos="fade-up">
-                <div class="row mt-5">
-                    <div class="col-lg-4">
-                        <div class="info">
-                            <div class="address">
-                                <i class="fa fa-map-marker"></i>
-                                <h4>Location:</h4>
-                                <p>Madhyapur Thimi,Bhaktapur, Nepal</p>
-                            </div>
-                           
-                            <div class="email">
-                                <i class="fa fa-envelope"></i>
-                                <h4>Email:</h4>
-                                <p><a href="mailto:snjprajapati3@gmail.com">snjprajapati3@gmail.com</a></p>
-                            </div>
-                            <div class="phone">
-                                <i class="fa fa-phone"></i>
-                                <h4>Call:</h4>
-                                <p><a href="tel:+977-9860073351">+977-9860073351</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 mt-5 mt-lg-0">
-                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d525.2115750738132!2d85.3843692908679!3d27.680576152384006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1a68f50149ef%3A0x340432c712cc8b10!2sNasanani%20Tole!5e0!3m2!1sen!2snp!4v1635936776963!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-               
+                <h3>Frontend Development</h3>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">JavaScript</span>
+                    <span class="skill-percent">85%</span>
+                  </div>
+                  <div class="progress-bar-wrap">
+                    <div
+                      class="progress-bar frontend-bar"
+                      style="width: 85%"
+                    ></div>
+                  </div>
                 </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">React.js</span>
+                    <span class="skill-percent">78%</span>
+                  </div>
+                  <div class="progress-bar-wrap">
+                    <div
+                      class="progress-bar frontend-bar"
+                      style="width: 78%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">Vue.js</span>
+                    <span class="skill-percent">75%</span>
+                  </div>
+                  <div class="progress-bar-wrap">
+                    <div
+                      class="progress-bar frontend-bar"
+                      style="width: 75%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">HTML / CSS</span>
+                    <span class="skill-percent">90%</span>
+                  </div>
+                  <div class="progress-bar-wrap">
+                    <div
+                      class="progress-bar frontend-bar"
+                      style="width: 90%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
+
+            <!-- Database & Tools -->
+            <div
+              class="col-lg-4 col-md-6 mb-4"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="skill-card">
+                <div class="skill-card-icon database">
+                  <i class="fa-solid fa-database"></i>
+                </div>
+                <h3>Database & Tools</h3>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">MySQL</span>
+                    <span class="skill-percent">90%</span>
+                  </div>
+                  <div class="progress-bar-wrap">
+                    <div
+                      class="progress-bar database-bar"
+                      style="width: 90%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">MongoDB</span>
+                    <span class="skill-percent">75%</span>
+                  </div>
+                  <div class="progress-bar-wrap">
+                    <div
+                      class="progress-bar database-bar"
+                      style="width: 75%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">Git</span>
+                    <span class="skill-percent">88%</span>
+                  </div>
+                  <div class="progress-bar-wrap">
+                    <div
+                      class="progress-bar database-bar"
+                      style="width: 88%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">cPanel</span>
+                    <span class="skill-percent">85%</span>
+                  </div>
+                  <div class="progress-bar-wrap">
+                    <div
+                      class="progress-bar database-bar"
+                      style="width: 85%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- API & Architecture -->
+            <div
+              class="col-lg-6 col-md-6 mb-4"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="skill-card">
+                <div class="skill-card-icon api">
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </div>
+                <h3>API & Architecture</h3>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">RESTful APIs</span>
+                    <span class="skill-percent">92%</span>
+                  </div>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar api-bar" style="width: 92%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">MVC Architecture</span>
+                    <span class="skill-percent">90%</span>
+                  </div>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar api-bar" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">API Security</span>
+                    <span class="skill-percent">85%</span>
+                  </div>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar api-bar" style="width: 85%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Other Technologies -->
+            <div
+              class="col-lg-6 col-md-6 mb-4"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="skill-card">
+                <div class="skill-card-icon other">
+                  <i class="fa-solid fa-gears"></i>
+                </div>
+                <h3>Other Technologies</h3>
+                <div class="skills-grid">
+                  <div class="skill-badge">
+                    <span>Bootstrap</span>
+                  </div>
+                  <div class="skill-badge">
+                    <span>Express.js</span>
+                  </div>
+                  <div class="skill-badge">
+                    <span>Eloquent ORM</span>
+                  </div>
+                  <div class="skill-badge">
+                    <span>jQuery</span>
+                  </div>
+                  <div class="skill-badge">
+                    <span>AJAX</span>
+                  </div>
+                  <div class="skill-badge">
+                    <span>JSON</span>
+                  </div>
+                  <div class="skill-badge">
+                    <span>cPanel</span>
+                  </div>
+                  <div class="skill-badge">
+                    <span>Web Hosting</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="menu menu-section">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Experience</h2>
+            <p>My Professional <span>Journey</span></p>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item" data-aos="fade-up">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">2024 - Present</div>
+                <h3>Backend Developer</h3>
+                <h4>Ekbana Solutions Pvt. Ltd.</h4>
+                <p>
+                  - Developing enterprise-grade backend systems using Laravel
+                  and Livewire
+                  <br />- Designing and maintaining REST APIs <br />- Optimizing
+                  database performance and secure data handling
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">Feb 2023 - 2024</div>
+                <h3>Laravel Developer</h3>
+                <h4>Peace Nepal Dot Com</h4>
+                <p>
+                  - Developed banking web application with KYC, account opening,
+                  and deposits
+                  <br />- Built secure backend workflows using Laravel,
+                  Livewire, and MERN tools
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">Jan 2022 - Feb 2023</div>
+                <h3>Laravel Developer</h3>
+                <h4>Young Minds Creation Pvt. Ltd.</h4>
+                <p>
+                  - Developed SaaS platform Janagunaso for municipalities
+                  <br />- Built government websites and backend APIs <br />-
+                  Created and maintained client websites and applications using
+                  test-driven development
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">Jun 2020 - Jun 2022</div>
+                <h3>Laravel Developer</h3>
+                <h4>Softbenz Infosys</h4>
+                <p>
+                  - Developed e-commerce and business platforms
+                  <br />- Managed multiple projects and client responses <br />-
+                  Built travel websites, educational sites, news websites,
+                  portfolios, and e-commerce sites
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">Jan 2019 - Mar 2020</div>
+                <h3>Laravel Developer</h3>
+                <h4>Digital Terai</h4>
+                <p>
+                  - Started as intern and established as Junior Software
+                  Developer
+                  <br />-Collaborated with senior developers to improve
+                  technical skills <br />- Built e-library, beauty salon
+                  platform, and exam preparation system
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="education">
+        <div class="container">
+          <div class="section-title">
+            <h2>Education</h2>
+            <p>My Academic <span>Background</span></p>
+          </div>
+          <div class="row">
+            <div class="col-lg-12" data-aos="fade-up">
+              <div class="education-item">
+                <div class="education-header">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  <div>
+                    <h3>Master's in Computer Science</h3>
+                    <h4>Ongoing</h4>
+                  </div>
+                </div>
+                <p>
+                  Pursuing advanced studies in computer science to enhance
+                  backend development knowledge and expertise.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+              <div class="education-item">
+                <div class="education-header">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  <div>
+                    <h3>BSc CSIT</h3>
+                    <h4>
+                      Tribhuvan University, Aberdeen International College -
+                      2017
+                    </h4>
+                  </div>
+                </div>
+                <p>
+                  Bachelor of Science in Computer Science and Information
+                  Technology.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills" id="certificates">
+        <div class="container">
+          <div class="section-title">
+            <h2>Certifications</h2>
+            <p>My Professional <span>Certifications</span></p>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up">
+              <div class="certification-card">
+                <div class="certification-icon">
+                  <i class="fa-solid fa-certificate"></i>
+                </div>
+                <h3>MERN Stack Full-Stack Development</h3>
+                <p class="certification-provider">Broadway Infosys</p>
+                <p class="certification-year">2025</p>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="certification-card">
+                <div class="certification-icon">
+                  <i class="fa-solid fa-certificate"></i>
+                </div>
+                <h3>PHP Development</h3>
+                <p class="certification-provider">Aptech Computer Education</p>
+                <p class="certification-year">2016</p>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="certification-card">
+                <div class="certification-icon">
+                  <i class="fa-solid fa-certificate"></i>
+                </div>
+                <h3>Java Programming</h3>
+                <p class="certification-provider">IT Training Nepal</p>
+                <p class="certification-year">2017</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Contact</h2>
+            <p>Get In <span>Touch</span></p>
+          </div>
+        </div>
+
+        <div class="container" data-aos="fade-up">
+          <div class="row mt-5">
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <i class="fa-solid fa-location-dot text-white"></i>
+                  <h4>Location:</h4>
+                  <p>Madhyapur Thimi, Bhaktapur, Nepal</p>
+                </div>
+
+                <div class="email">
+                  <i class="fa-solid fa-envelope text-white"></i>
+                  <h4>Email:</h4>
+                  <p>
+                    <a href="mailto:snjprajapati3@gmail.com"
+                      >snjprajapati3@gmail.com</a
+                    >
+                  </p>
+                </div>
+                <div class="phone">
+                  <i class="fa-solid fa-phone text-white"></i>
+                  <h4>Call:</h4>
+                  <p><a href="tel:+977-9860073351">+977-9860073351</a></p>
+                </div>
+                <div class="linkedin">
+                  <i class="fa-brands fa-linkedin text-white"></i>
+                  <h4>LinkedIn:</h4>
+                  <p>
+                    <a
+                      href="https://www.linkedin.com/in/sanjay-prajapati-780949140/"
+                      target="_blank"
+                      >Connect with me</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 mt-5 mt-lg-0">
+              <div class="contact-form">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d525.2115750738132!2d85.3843692908679!3d27.680576152384006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1a68f50149ef%3A0x340432c712cc8b10!2sNasanani%20Tole!5e0!3m2!1sen!2snp!4v1635936776963!5m2!1sen!2snp"
+                  width="100%"
+                  height="400"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <section class="section-padding footer">
-        <div class="container">
-            <div class="footer-logo text-center">
-                <a href="index.html" class="mr-auto"><span class="text-white">Sanjay Prajapati</span></a>
-            </div>
+      <div class="container">
+        <div class="footer-logo text-center">
+          <a href="index.html" class="mr-auto"
+            ><span class="">Sanjay Prajapati</span></a
+          >
         </div>
+      </div>
     </section>
 
     <script src="assets/js/jquery.min.js"></script>
@@ -416,7 +889,5 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/venobox.min.js"></script>
     <script src="assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>
- 
