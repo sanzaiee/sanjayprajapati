@@ -1,0 +1,22 @@
+{
+  "name": "Sanjay Prajapati - Backend Developer",
+  "short_name": "Sanjay Prajapati",
+  "description": "Backend Developer with 5+ years of experience in Laravel, Livewire, and MERN stack.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#cc1616",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "2.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
